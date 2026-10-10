@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Harga & Paket Lengkap — Agency Creative & Digital Solutions</title>
+  <meta name="description" content="Tabel harga resmi seluruh divisi: Social Media, Video Editing, Web Development, dan Bundling Apollo Go Digital.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .table-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-lg);
+      padding: 1.8rem;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(14px);
+      overflow-x: auto;
+    }
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    .custom-table th {
+      padding: 1rem 1.2rem;
+      background: rgba(139, 92, 246, 0.15);
+      color: #fff;
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border-glow);
+    }
+    .custom-table td {
+      padding: 1.1rem 1.2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: #cbd5e1;
+      font-size: 0.92rem;
+      vertical-align: top;
+    }
+    .custom-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .pkg-title {
+      font-weight: 700;
+      color: #fff;
+      font-size: 1rem;
+    }
+    .pkg-price {
+      font-weight: 800;
+      color: var(--accent-gold);
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Background Canvas & Orbs -->
+  <canvas id="starsCanvas"></canvas>
+  <div class="cosmic-orb orb-1"></div>
+  <div class="cosmic-orb orb-2"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="index.html" class="logo-badge">
+          <div class="logo-icon">🪐</div>
+          <div class="logo-text">
+            <span class="logo-title">CREATIVE & DIGITAL</span>
+            <span class="logo-sub">SOLUTIONS AGENCY</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html#layanan" class="nav-link">Beranda</a></li>
+          <li><a href="pricelist.html" class="nav-link active">Daftar Harga</a></li>
+          <li><a href="index.html#kalkulator" class="nav-link">Kalkulator</a></li>
+          <li><a href="index.html#onboarding" class="nav-link">Form Onboarding</a></li>
+          <li><a href="index.html#sop" class="nav-link">SOP & Alur</a></li>
+          <li><a href="about.html" class="nav-link">Tentang Kami</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="index.html#kalkulator" class="btn btn-secondary btn-sm">Simulasi</a>
+          <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20ingin%20konsultasi%20pricelist." target="_blank" class="btn btn-whatsapp btn-sm">WhatsApp Admin</a>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="hero-section" style="padding: 4rem 0 2.5rem;">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="badge badge-gold">TABEL LENGKAP PRICELIST RESMI</span>
+      </div>
+      <h1 class="hero-title">Katalog Biaya & <span class="text-gradient">Investasi Layanan</span></h1>
+      <p class="hero-lead">
+        Daftar harga transparan berdasarkan standar resmi dokumen <code>profile.docx</code>. Seluruh penamaan paket menggunakan metafora Astronomi.
+      </p>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="index.html#kalkulator" class="btn btn-primary">Buka Kalkulator Biaya Real-time →</a>
+        <a href="index.html#onboarding" class="btn btn-secondary">Isi Client Onboarding Form</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" style="padding-bottom: 5rem;">
+
+    <!-- 1. Table Social Media -->
+    <div style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 10px;">
+        <h3 style="font-size: 1.5rem; color: #fff;">1. Divisi Social Media Management (Manual Design Only)</h3>
+        <span class="badge badge-nebula">Layanan A La Carte: Rp30.000 – Rp50.000 / post</span>
+      </div>
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th style="width: 28%;">Nama Paket</th>
+              <th style="width: 22%;">Investasi / Bulan</th>
+              <th>Fasilitas Utama & Spesifikasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Orbit</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Starter / Entry-Level</div>
+              </td>
+              <td class="pkg-price">Rp349.000</td>
+              <td>15 Desain Single Image Custom, Copywriting (Caption) & Riset Hashtag, Konsep & Content Planner.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Galaxy</div>
+                <div style="font-size: 0.8rem; color: var(--secondary); font-weight: 600;">Growth / Most Popular 🔥</div>
+              </td>
+              <td class="pkg-price">Rp649.000</td>
+              <td>21 Desain Single Image Custom, <strong>FREE 5 Desain Story IG</strong>, Copywriting + Riset 10 Hashtag, <strong>Admin Auto-Posting</strong>.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Supernova</div>
+                <div style="font-size: 0.8rem; color: #f472b6;">Scale-Up / Enterprise</div>
+              </td>
+              <td class="pkg-price">Rp1.249.000</td>
+              <td>52 Desain Single Image Custom, <strong>FREE 10 Desain Story IG</strong>, Copywriting + Riset 20 Hashtag, Admin Auto-Posting, <strong>FREE Revisi Minor</strong>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 2. Table Video Production -->
+    <div style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 10px;">
+        <h3 style="font-size: 1.5rem; color: #fff;">2. Divisi Video Production & Editing (Short-Form Video)</h3>
+        <span class="badge badge-cyan">Format: Reels, TikTok, Shorts</span>
+      </div>
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th style="width: 28%;">Nama Paket</th>
+              <th style="width: 22%;">Investasi</th>
+              <th>Fasilitas Utama & Spesifikasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Comet</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Short Video A</div>
+              </td>
+              <td class="pkg-price">Rp259.000</td>
+              <td>3 Video Editing (Bahan Mentah dari Klien / AI Edit), Konsep Video, Caption & Hashtag, 1x Revisi Minor.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Meteor</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Short Video B</div>
+              </td>
+              <td class="pkg-price">Rp489.000</td>
+              <td>6 Video Editing (Bahan Mentah dari Klien / AI Edit), Konsep Video, Caption & Hashtag, 1x Revisi Minor.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Nebula</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Short Video C</div>
+              </td>
+              <td class="pkg-price">Rp979.000</td>
+              <td>12 Video Editing (Bahan Mentah dari Klien / AI Edit), Konsep Video, Caption & Hashtag, 1x Revisi Minor.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Cosmos</div>
+                <div style="font-size: 0.8rem; color: var(--accent-gold); font-weight: 600;">On-Location Shooting 📍</div>
+              </td>
+              <td class="pkg-price">Rp200k – Rp450k / video</td>
+              <td>Pengambilan gambar langsung di lokasi klien (Area Magelang & sekitarnya), Talent/Reviewer Produk, Shooting + Editing Siap Tayang.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 3. Table Web Development -->
+    <div style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 10px;">
+        <h3 style="font-size: 1.5rem; color: #fff;">3. Divisi Web & Digital Development</h3>
+        <span class="badge badge-gold">Infrastruktur & Otomasi Transaksi</span>
+      </div>
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th style="width: 28%;">Nama Paket</th>
+              <th style="width: 22%;">Investasi / Tahun</th>
+              <th>Spesifikasi & Fitur Lengkap</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Asteroid</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Landing Page</div>
+              </td>
+              <td class="pkg-price">Rp489.000</td>
+              <td>Gratis Domain (.my.id / .xyz) & Hosting 500 MB, Maksimal Upload 7 Produk, Tombol Order WhatsApp Direct, 1x Revisi.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Pulsar</div>
+                <div style="font-size: 0.8rem; color: var(--secondary); font-weight: 600;">Company Profile Kredibel</div>
+              </td>
+              <td class="pkg-price">Rp949.000</td>
+              <td>Gratis Domain (.com) & Hosting 1 GB, Maksimal Upload 15 Produk, Layout Premium & SEO Friendly, 3x Revisi, Grup WA Diskusi Project.</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Quasar</div>
+                <div style="font-size: 0.8rem; color: #a78bfa;">Interactive / E-Commerce</div>
+              </td>
+              <td class="pkg-price">Rp1.169.000</td>
+              <td>Gratis Domain (.com) & Hosting 4 GB, Shopping Cart / Sistem Order Online & Form Input/Output/Login, Maksimal Upload 21 Produk, Support 3 Admin WA, 3x Revisi.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 4. Table Bundling -->
+    <div style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 10px;">
+        <h3 style="font-size: 1.5rem; color: #fff;">4. Paket Bundling Terpadu (Go Digital)</h3>
+        <span class="badge badge-hot">ALL-IN-ONE SOLUTION</span>
+      </div>
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th style="width: 28%;">Nama Paket</th>
+              <th style="width: 22%;">Investasi Total</th>
+              <th>Fitur Terintegrasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="pkg-title">Paket Apollo "Go Digital"</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Project (Sekali Bayar)</div>
+              </td>
+              <td class="pkg-price">Rp1.800.000 – Rp2.200.000</td>
+              <td>
+                1. 1 Website Landing Page / Company Profile (.com)<br>
+                2. Setup & Optimasi Bio / Highlight Instagram & TikTok Bisnis<br>
+                3. 6 Konten Feed Awal + 2 Video Promosi Pertama
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Agency Creative & Digital Solutions. Seluruh Data Sesuai profile.docx.</div>
+        <div><a href="index.html" style="color: var(--secondary); text-decoration: none;">← Kembali ke Beranda Utama</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

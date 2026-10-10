@@ -1,0 +1,94 @@
+PRODUCT REQUIREMENTS DOCUMENT (PRD) — REGENERASI TOTAL V2.0
+============================================================
+
+Project: Agency Creative & Digital Solutions — Website Modern Premium
+Version: 2.0 (Regenerasi Total UI/UX & Functional Interactive Features)
+Date: 2026-10-10
+Status: Selesai & Aktif
+Path Workspace: K:\My Drive\PKWU\WEB
+
+---
+
+1. LATAR BELAKANG & TUJUAN
+--------------------------
+Website resmi Agency Creative & Digital Solutions diregenerasi secara menyeluruh untuk menghadirkan antarmuka (UI/UX) berkelas dunia, modern, futuristik, responsif, dan berfungsi penuh (functional dynamic experience). Seluruh materi dan hierarki data bersumber 100% dari dokumen `profile.docx`.
+
+2. PRINSIP DESAIN & TEMA VISUAL
+-------------------------------
+- Tema Utama: Deep Space & Presisi Astronomi (Astronomical Precision).
+- Mood: Modern Dark Theme, Glassmorphism, Ambient Cosmic Glow, Linear/Vercel/Stripe Aesthetic.
+- Skema Warna:
+  * Deep Space Void Background: #070913
+  * Card Surfaces: rgba(17, 22, 45, 0.7) dengan backdrop-filter blur 16px
+  * Primary Accent (Nebula Violet/Indigo): #8b5cf6 / #6366f1
+  * Secondary Accent (Cosmic Cyan): #06b6d4 / #0ea5e9
+  * Stellar Gold (Highlight/Pricing): #f59e0b / #fbbf24
+- Typography: Plus Jakarta Sans & Space Grotesk (Modern Sans-Serif).
+- Efek Visual Tambahan: Canvas Bintang Berkelap-kelip Dinamis (HTML5 Canvas Stars Engine), ambient rotating gradient orbs.
+
+3. ARSITEKTUR KONTEN & STRUKTUR HALAMAN
+---------------------------------------
+
+3.1 Halaman Utama (`index.html`)
+- Header / Navigation Bar:
+  * Brand badge interaktif dengan ikon kosmik (🪐)
+  * Menu navigasi: Layanan & Paket, Kalkulator Biaya, Form Onboarding, SOP & Alur, Tentang Kami
+  * Tombol CTA WhatsApp Fast Response
+  * Drawer menu responsif untuk smartphone
+- Hero Section:
+  * Headline: "Orbitkan Bisnis Anda ke Skala Digital Tertinggi"
+  * Tagline & Pill badge bertema astronomi
+  * Quick Stats Bar: 100% Manual Design, 3x24 Jam SLA SOP, 4 Divisi Layanan, Jangkauan Magelang & Nasional
+- Section Katalog Layanan & Pricelist Interaktif:
+  * Filter tab dinamis: Semua Layanan, Social Media, Video Production, Web Development, Bundling Apollo
+  * 11 Kartu Paket lengkap dari tabel profile.docx:
+    1. Social Media A La Carte: Rp30.000 – Rp50.000/post
+    2. Paket Orbit: Rp349.000/bulan (15 Desain, Copywriting, Hashtag, Planner)
+    3. Paket Galaxy (Most Popular): Rp649.000/bulan (21 Desain + Free 5 Story, Copywriting, Auto-Posting)
+    4. Paket Supernova: Rp1.249.000/bulan (52 Desain + Free 10 Story, Copywriting, Auto-Posting, Free Revisi Minor)
+    5. Paket Comet: Rp259.000 (3 Video Editing, Konsep, Caption & Hashtag)
+    6. Paket Meteor: Rp489.000 (6 Video Editing, Sound Trending & FX)
+    7. Paket Nebula: Rp979.000 (12 Video Editing, High-Engagement Subtitle)
+    8. Paket Cosmos (On-Location Magelang): Rp200.000 – Rp450.000/video (Shooting + Talent + Reviewer)
+    9. Paket Asteroid: Rp489.000/tahun (Landing Page, Free Domain .my.id/.xyz & Hosting 500MB, 7 Produk, Tombol WA)
+    10. Paket Pulsar: Rp949.000/tahun (Company Profile, Free Domain .COM & Hosting 1GB, 15 Produk, SEO Friendly, 3x Revisi)
+    11. Paket Quasar: Rp1.169.000/tahun (E-Commerce Interactive, Free Domain .COM & Hosting 4GB, Shopping Cart, Form Order, 21 Produk, Support 3 Admin WA)
+    12. Paket Apollo "Go Digital" (Bundling Terpadu): Rp1.800.000 – Rp2.200.000 (1 Web .COM, Setup Bio/Highlight IG & TikTok, 6 Feed + 2 Video Promosi)
+  * Tombol "Pilih Paket" yang langsung menyinkronkan data ke Kalkulator Biaya!
+- Section Kalkulator Estimasi Biaya & Order Simulator:
+  * Simulasi pilihan divisi secara live
+  * Opsi Add-on: Fast-Track Priority (+Rp150k), Extra 5 Story (+Rp75k), Extra 3 Single Post (+Rp105k)
+  * Rekap itemized, total investasi, dan simulasi DP 50% untuk Project-Based
+  * Tombol otomatis membuat pesan WhatsApp terformat lengkap untuk pemesanan langsung!
+- Section Client Onboarding Form Interaktif (Sesuai Bab II profile.docx):
+  * Wizard 4 langkah (Identitas Bisnis -> Aset Visual Merek -> Kredensial & Web -> Gaya Bahasa/Review)
+  * Interaktif Tone of Voice Selector (Santai, Gaul, Formal, Edukatif, Premium)
+  * Review rangkuman instan
+  * Fitur submit langsung ke WhatsApp Admin
+  * Fitur unduh berkas formulir format `.TXT`
+- Section SOP Operasional & Alur Kerja (Sesuai Bab III profile.docx):
+  * 5 Tahapan Proyek visual timeline
+  * Accordion 4 kebijakan inti: Onboarding 3x24 Jam, Payment Terms (100% Retainer / DP 50% Project), Ketentuan Revisi Minor vs Mayor (2x24 Jam), dan Refund Policy (Non-refundable)
+- Section Filosofi Astronomi & Keunggulan
+- Footer lengkap dengan kontak area Magelang & nasional
+- Floating Quick WhatsApp Button dengan animasi pulsa
+
+3.2 Halaman Daftar Harga (`pricelist.html`)
+- Berisi tabel komprehensif seluruh 4 divisi dengan spesifikasi detail dan kolom harga yang rapi.
+- Navigasi sinkron dan tautan langsung ke kalkulator interaktif.
+
+3.3 Halaman Tentang Kami (`about.html`)
+- Visi, misi operasional, 4 pilar nilai, dan filosofi pemilihan tema astronomi.
+
+4. DAFTAR FILE DALAM WORKSPACE
+-----------------------------
+- `K:\My Drive\PKWU\WEB\index.html`     : Beranda aplikasi web utama & fitur interaktif
+- `K:\My Drive\PKWU\WEB\styles.css`     : Desain sistem bertema cosmic glassmorphism
+- `K:\My Drive\PKWU\WEB\scripts.js`     : Mesin interaktif, kalkulator harga, onboarding wizard, canvas bintang
+- `K:\My Drive\PKWU\WEB\pricelist.html` : Halaman tabel harga terperinci
+- `K:\My Drive\PKWU\WEB\about.html`     : Halaman filosofi dan profil agency
+- `K:\My Drive\PKWU\WEB\profile.docx`   : Dokumen sumber data resmi
+- `K:\My Drive\PKWU\WEB\prd.txt`        : Dokumen PRD spesifikasi teknis ini
+
+---
+SELESAI REGENERASI TOTAL & SIAP DIGUNAKAN
